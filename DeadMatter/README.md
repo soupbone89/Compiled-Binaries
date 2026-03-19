@@ -5,3 +5,5 @@ DeadMatter is a specialized tool written in C#, designed to extract sensitive in
 This tool is particularly useful for penetration testers, red teamers, and forensic investigators, as it facilitates the analysis of system security vulnerabilities and aids in digital forensic investigations. DeadMatter can be very useful to pentesters and red teamers during their engagements, since they often have to deal with EDR and AV software detecting and/or blocking their attempts to dump the LSASS process memory in the minidump format. The alternative of dumping and exfiltrating a full memory dump is often not an option. As a result, DeadMatter was created to fill the gap and allow the offensive team to parse the memory dump files directly on the victim machine, in order to extract NTLM hashes, DPAPI keys and other useful information on the spot.
 
 The tool has been presented at Black Hat USA 2025 Arsenal.
+
+Original repository: https://github.com/qsecure-labs/DeadMatter
