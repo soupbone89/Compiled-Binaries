@@ -1,4 +1,4 @@
-# Dead Matteer
+# Dead Matter
 
 DeadMatter is a specialized tool written in C#, designed to extract sensitive information, such as password hashes of active logon sessions, from memory dumps. It employs carving techniques to retrieve credentials from various file types, such as process or full memory dumps, either in raw or minidump format, decompressed hibernation files, virtual machine memory files, or other types of files that may contain logon credentials.
 
